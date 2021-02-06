@@ -2,7 +2,7 @@
 
 Title: React / Redux / Router Project
 Purpose:React / Redux / Router Assignment to demonstrate competence
-Author: Scriptorce (Kenji, Dharmesh, Ayesha and Amr)
+Authors: Scriptorce (Kenji, Dharmesh, Ayesha and Amr)
 
 --------------------------------------------
 # Project Related Links
