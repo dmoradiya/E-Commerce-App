@@ -4,18 +4,16 @@ Title: React / Redux / Router Project
 Purpose:React / Redux / Router Assignment to demonstrate competence
 Author: Scriptorce (Kenji, Dharmesh, Ayesha and Amr)
 
-==============================================================================================
+--------------------------------------------
 # Project Related Links
 
 - Trello board: https://trello.com/b/QuSHXICc
 
 - Figma Planning Documents: https://www.figma.com/file/LZIMp2h1294u6McLJMCeoy/Wireframing-in-Figma
-==============================================================================================
+-------------------------------------------
 # Installation Instruction:
 
 NOTE***: The reducer and action files have a naming issue. Please uncapitalize the second word in the files before running npm start.
-The files keep reverting to both being uppercase while the team renames the files and the team currently does not know how to fix this
-issue.
 
 Hello there!
 
@@ -78,7 +76,7 @@ The following links has been used as research resources during the project execu
 13. https://stackoverflow.com/questions/17787680/overlay-the-div-on-the-div-of-contact-form
 14. OverLay Component Package: https://binodswain.github.io/react-overlay-component/
     15.Static content: https://donate.worldvision.ca/pages/gift-catalogue-frequently-asked-questions?_ga=2.92856925.1149032770.1601052606-1805505462.1600439777&_gac=1.82702692.1601052621.Cj0KCQjwqrb7BRDlARIsACwGad6iGgWtrCOINhqHqsaU67Ph83Ng6zyCJMPZHUwsGN0wBJ5RmFv7R2UaAgO5EALw_wcB
-==============================================================================================
+---------------------------------------------------------------
 # Citation:
 
 (1) File Names:
@@ -91,28 +89,28 @@ Citation: Below response in stackoverflow gave me inspiration to what should be 
 in my multi-form submission roadblock. I have use React Hooks to give the child component a reference so the parent component can access/ call a function that perform dispatch within the child component. Note that the code in my files is not copied from the resource below, however it follows the same logic.
 Purpose: Perform multi-form submission using one submission button.
 Source:https://stackoverflow.com/questions/37949981/call-child-method-from-parent
-==============================================================================================
+------------------------------------------------------------
 
 (2) File Name: Shopping-navigation.js (Reducer file)
 
 Citation: The sorting function was adapted so that it could sort an array based on the product objects title.
 Source: https://www.sitepoint.com/sort-an-array-of-objects-in-javascript/
 Reason: A function to sort an array based on the inner object properties (title) was needed.
-==============================================================================================
+---------------------------------------------------------------
 
 (3) File Name: Shopping-navigation.js (Reducer file)
 
 Citation: The sorting function was adapted so that it could sort an array based on the product objects price.
 Source: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
 Reason: A function to sort an array based on the inner object properties (price) was needed.
-==============================================================================================
+-----------------------------------------------------------
 
 (4) File Name: Form-validation.js
 Citation: Using online resources (links on files) to grab RegEx expression in the if statement
 Source: Links kept in the above mentioned file
 Reason: We are not so familiar with Regex expression and those many done already are 
 available for use not to reinvent the wheel.
-==============================================================================================
+-------------------------------------------------------------
 
 (5) Other citations:
 
@@ -123,7 +121,7 @@ available for use not to reinvent the wheel.
 - Instead of using lorem ipsum, we have copied random articles from charity websites, links above
 - Tammy has given a good reference on how to resolve the API asynchronous issue that we faced ... https://dev.to/markusclaus/fetching-data-from-an-api-using-reactredux-55ao
 - Thank you image from Pixabay.com
-==============================================================================================
+----------------------------------------------------------------
 
 # General Notes:
 
@@ -132,4 +130,4 @@ didn't copy code snippets from there, and if we did, it was explicitly mentioned
 
 - Across the project files, we followed consistent file naming convention which helped us to be slim on comments specially in CSS as the names are self explanatory.
 
-==============================================================================================
+----------------------------------------------------------------------
