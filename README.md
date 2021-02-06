@@ -3,15 +3,11 @@
 Title: React / Redux / Router Project
 Purpose:React / Redux / Router Assignment to demonstrate competence
 Author: Scriptorce (Kenji, Dharmesh, Ayesha and Amr)
-Date of last edit: september 28, 2020 9:00 am
+
 ==============================================================================================
 # Project Related Links
 
-- Assignment: https://drive.google.com/file/d/1TkQkSrqbAsLseSicMVCrTzICGsslFF_G/view?usp=sharing
-
 - Trello board: https://trello.com/b/QuSHXICc
-
-- GitHub Repo: https://github.com/TECHCareers-by-Manpower/milestone-2-react-redux-router-project-scriptorce
 
 - Figma Planning Documents: https://www.figma.com/file/LZIMp2h1294u6McLJMCeoy/Wireframing-in-Figma
 ==============================================================================================
@@ -28,7 +24,7 @@ WELCOME to our REACT/ REDUX APP...
 In order to get this website up and running on your computer, 
 
 - You would first clone the project folder to your local host (computer). Please open you bash terminal and use the following command:
-git clone https://github.com/TECHCareers-by-Manpower/milestone-2-react-redux-router-project-scriptorce
+git clone https://github.com/dmoradiya/E-Commerce-App.git
 - Once you clone the project Repo, you would have to open the VScode, using the following code while in the project folder:
 <>code .</>
 - Once in the VS code environment, make sure you see all the project folders and files as they appear in the windows explorer window
