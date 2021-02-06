@@ -26,7 +26,7 @@ import ThankYouPage from "./components/Thankyou-page.jsx";
 import VolunteerConfPage from "./components/Volunteer-confirmation-page.jsx";
 ReactDOM.render(
   <Provider store={GlobalStore}>
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <HeaderComponent />
       <StickyHeaderComponent />
       <Route path="/thankyou" exact component={ThankYouPage} />{/* Order confirmation thank you page */}
