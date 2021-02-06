@@ -9,7 +9,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./css/index.css";
 import { Provider } from "react-redux";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { HashRouter as Router, Route } from "react-router-dom";
 import KnowUsPageComponent from "./components/Knowus-page.jsx";
 import NewsEventsPageComponent from "./components/News-events-page.jsx";
 import CartPageComponent from "./components/Cart-page.jsx";
@@ -26,7 +26,7 @@ import ThankYouPage from "./components/Thankyou-page.jsx";
 import VolunteerConfPage from "./components/Volunteer-confirmation-page.jsx";
 ReactDOM.render(
   <Provider store={GlobalStore}>
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <HeaderComponent />
       <StickyHeaderComponent />
       <Route path="/thankyou" exact component={ThankYouPage} />{/* Order confirmation thank you page */}
